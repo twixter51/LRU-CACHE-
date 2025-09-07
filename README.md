@@ -60,9 +60,4 @@ assert c.get(4) == 4
 
 ---
 
-## Why two versions?
-
-- The **OrderedDict** version mirrors how you'd likely ship this in real code: concise and maintainable.
-- The **hash+DLL** version shows you understand the underlying data-structure mechanics for interviews and performance-critical constraints.
-
 See **DESIGN.md** for details.
